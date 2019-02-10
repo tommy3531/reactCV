@@ -12,15 +12,15 @@ module.exports = {
     I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
+      name: 'Java',
+      level: 50
     },
     {
-      name: 'CSS',
-      level: 60
+      name: 'Golang',
+      level: 45
     },
     {
-      name: 'Javascript',
+      name: 'Blockchain',
       level: 50
     },
     {
@@ -29,40 +29,44 @@ module.exports = {
     },
     {
       name: 'React',
-      level: 60
+      level: 50
     },
     {
       name: 'Git',
       level: 70
+    },
+    {
+      name: 'Swift',
+      level: 50
     }
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "DAV",
       begin: {
-        month: 'apr',
+        month: 'aug',
         year: '2018'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      occupation: "Hospital Coordinator",
+      description: "Help Disabled Veterans get to their medical appointments"
   
     }, {
-      company: "Anapro",
+      company: "Quarkworks",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'nov',
+        year: '2017'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: '10 months',
+      occupation: "iOS developer",
+      description: "Hello Network - fixed bugs and added new features"
     }, {
-      company: "Anapro",
+      company: "Student Researcher",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'july',
+        year: '2008'
       },
-      duration: '4 yrs e 3 mos',
+      duration: '2',
       occupation: "Support Technician",
       description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
   
