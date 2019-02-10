@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
 import { FaGithub, FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+
 
 import Layout from '../components/layout'
 import Hero from '../components/hero'
@@ -24,6 +26,11 @@ class Home extends React.Component {
     const title = 'Hi! I\'m Tom Marler!'
     return (
       <Layout location={this.props.location}>
+        <OutboundLink
+          href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/"
+        >
+          Visit the Google Analytics plugin page!
+        </OutboundLink>
         <SEO
           title={title}
           keywords={['gatsbyjs', 'react', 'curriculum']}
