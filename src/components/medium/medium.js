@@ -1,38 +1,28 @@
-import React from "react";
-import jsonFetch from "simple-json-fetch";
-import styled from 'styled-components'
-import siteConfig from '../../../data/siteConfig'
-
-import Loader from '../loader'
-
-const endpoint =
-  `https://medium.com/me/stories/public`
+import React, {Component} from "react";
+import { graphql, Link } from "gatsby";
 
 
-class Medium extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      repos: [],
-      status: 'loading'
-    }
-  }
-  async componentDidMount () {
-    const repos = await jsonFetch(endpoint);
-    if (repos.json && repos.json.length) {
-      this.setState({ repos: repos.json, status: 'ready' })
-    }
-  }
+class Medium extends Component {
   render () {
-    const { status } = this.state
     return (
       <div>
         <hr />
-        <h1>Medium Articles</h1>
+          <h3>Certificates</h3>
+        <ul>
+          <li>
+            <a href="https://courses.cognitiveclass.ai/certificates/ca26f467f07e49dc8608ba22d1593167">IBM Blockchain Foundation Developer</a>
+          </li>
+          <li>
+            <a href="https://courses.cognitiveclass.ai/certificates/c35f5fc866344c09bf18f365ea36362f">Blockchain Essentials</a>
+          </li>
+          <li>
+          </li>
+        </ul>
       </div>
     )
   }
 }
+
 
 export default Medium
 
