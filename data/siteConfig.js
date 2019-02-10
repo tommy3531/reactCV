@@ -1,10 +1,11 @@
 module.exports = {
-  siteTitle: 'Francisco Santos',
+  siteTitle: 'Tom Marler',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
+  authorName: 'Tom Marler',
+  twitterUsername: '@tommarler3',
+  githubUsername: 'tommy3531',
+  mediumUsername: '@tommarler',
+  authorAvatar: '/images/pic.jpg',
   authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
     In 2012 I started working as a support technician and I approached the developers.
     In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
@@ -69,10 +70,10 @@ module.exports = {
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/tommarler3",
+    linkedin: "https://www.linkedin.com/in/tom-m-bb4857112/",
+    github: "https://github.com/tommy3531",
+    email: "thomas.marler@hotmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -84,7 +85,7 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Tom Marler',
       url: '/',
     }
   ]

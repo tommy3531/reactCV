@@ -12,6 +12,7 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
+import Medium from '../components/medium'
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -20,7 +21,7 @@ const Separator = styled.hr`
 
 class Home extends React.Component {
   render () {
-    const title = 'Hi! I\'m Francisco!'
+    const title = 'Hi! I\'m Tom Marler!'
     return (
       <Layout location={this.props.location}>
         <SEO
@@ -39,7 +40,7 @@ class Home extends React.Component {
               <Col xs={4} className='avatar'>
                 <img
                   className='avatar__image'
-                  src='/images/avatar.jpeg'
+                  src='/images/pic.jpg'
                   alt='user avatar'
                 />
                 <div className="social">
@@ -70,6 +71,7 @@ class Home extends React.Component {
             <Timeline />
             <Separator />
             <Repositories />
+            <Medium />
           </Container>
         </Wrapper>
       </Layout>
