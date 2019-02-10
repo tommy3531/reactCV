@@ -1,10 +1,18 @@
 import React, {Component} from "react";
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { graphql, Link } from "gatsby";
 
 
 class Medium extends Component {
   render () {
     return (
+      <div>
+        <OutboundLink
+          href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/"
+        >
+          Visit the Google Analytics plugin page!
+        </OutboundLink>
+      </div>
       <div>
         <hr />
           <h3>Certificates</h3>
