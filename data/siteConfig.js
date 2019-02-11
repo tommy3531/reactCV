@@ -79,10 +79,10 @@ module.exports = {
     github: "https://github.com/tommy3531",
     email: "thomas.marler@hotmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://serene-einstein-535354.netlify.com/',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-131359385-1',
+  googleAnalyticsId: 'UA-134143239-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',

@@ -26,11 +26,6 @@ class Home extends React.Component {
     const title = 'Hi! I\'m Tom Marler!'
     return (
       <Layout location={this.props.location}>
-        <OutboundLink
-          href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/"
-        >
-          Visit the Google Analytics plugin page!
-        </OutboundLink>
         <SEO
           title={title}
           keywords={['gatsbyjs', 'react', 'curriculum']}
