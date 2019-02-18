@@ -1,11 +1,12 @@
-const config = require("./data/siteConfig");
+const config = require('./data/siteConfig')
 
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://tommarler.org`,
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,
-    ...config
+    ...config,
   },
   pathPrefix: config.pathPrefix,
   plugins: [
@@ -31,13 +32,14 @@ module.exports = {
         limit: 200,
       },
     },
+
     {
       resolve: `gatsby-source-ghost`,
       options: {
-          apiUrl: `https://tommarler.herokuapp.com`,
-          contentApiKey: `6e3308ac6916b40d2fd0207e4e`
-      }
-   },
+        apiUrl: `https://tommarler.herokuapp.com`,
+        contentApiKey: `6e3308ac6916b40d2fd0207e4e`,
+      },
+    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
