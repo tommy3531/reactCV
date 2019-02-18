@@ -38,6 +38,10 @@ module.exports = {
     {
       name: 'Swift',
       level: 50
+    },
+    {
+      name: 'Data Mining',
+      level: 70
     }
   ],
   jobs: [
@@ -61,14 +65,14 @@ module.exports = {
       occupation: "iOS developer",
       description: "Hello Network - fixed bugs and added new features"
     }, {
-      company: "Student Researcher",
+      company: "University of Missouri",
       begin: {
-        month: 'july',
-        year: '2008'
+        month: 'feb',
+        year: '2016'
       },
-      duration: '2',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '2 yrs',
+      occupation: "Student Researcher",
+      description: "Built testing environments that allowed the tweaking of Next Generation Firewall style tools to support open source contributors, editors, private citizens and developers when building anti-censorship projects"
   
     },
     /* ... */

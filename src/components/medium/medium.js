@@ -15,8 +15,6 @@ class Medium extends Component {
           <li>
             <a href="https://courses.cognitiveclass.ai/certificates/c35f5fc866344c09bf18f365ea36362f">Blockchain Essentials</a>
           </li>
-          <li>
-          </li>
         </ul>
       </div>
     )
