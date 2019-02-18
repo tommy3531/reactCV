@@ -8,6 +8,7 @@ import './layout.css'
 const Layout = ({ children }) => (
   <React.Fragment>
     <Header headerLinks={siteConfig.headerLinks} />
+    <div>{siteConfig.googleWebMaster}</div>
     <div>{children}</div>
   </React.Fragment>
 )
