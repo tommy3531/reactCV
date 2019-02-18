@@ -51,7 +51,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
               {
-                name: `googlewebmaster`,
+                name: `google-site-verification`,
                 content: data.site.siteMetadata.google,
               },
             ]
