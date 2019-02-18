@@ -81,7 +81,7 @@ class Header extends React.Component {
           <HeaderLinkGroup>
             {headerLinks.map((headerLink, i) => (
               <HeaderLink to={headerLink.url} key={`header-link-${i}`}>
-                {headerLink.label. headerLink.googleWebMaster}
+                {headerLink.label}
               </HeaderLink>
             ))}
           </HeaderLinkGroup>
