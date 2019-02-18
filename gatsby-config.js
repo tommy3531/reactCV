@@ -2,7 +2,6 @@ const config = require('./data/siteConfig')
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://tommarler.org`,
     title: config.siteTitle,
     description: config.siteDescription,
     author: config.authorName,

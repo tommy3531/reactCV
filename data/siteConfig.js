@@ -90,7 +90,7 @@ module.exports = {
   headerLinks: [
     {
       label: 'Tom Marler',
-      url: '/',
+      siteUrl: 'https://tommarler.org',
     }
   ]
 }
