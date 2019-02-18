@@ -5,7 +5,7 @@ module.exports = {
   twitterUsername: '@tommarler3',
   githubUsername: 'tommy3531',
   mediumUsername: '@tommarler',
-  googleWebMaster: 'google2c44e41e298749b5.html',
+  googleWebMaster: '8Pj-hnz5uJanCeKrbhGXYq2dbgnGpUQ0pJqaN3c_a7E',
   authorAvatar: '/images/pic.jpg',
   authorDescription: `Writing code started has a hobby over the years in turned into something more.  I really enjoy waking up every morning and learning something new . <br />
     About 5 years ago I was given a problem and solved it by teching myself access and have been hooked ever since.  I am always trying to improve my product by learning and tickering with new tech.  I am a tenacious <strong>developer</strong> that is not confined to a specific stack or language. <br />
