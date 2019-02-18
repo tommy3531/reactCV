@@ -3,6 +3,7 @@ const config = require('./data/siteConfig')
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
+    google: config.googleWebMaster,
     description: config.siteDescription,
     author: config.authorName,
     ...config,
