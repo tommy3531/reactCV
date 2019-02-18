@@ -6,10 +6,10 @@ module.exports = {
   githubUsername: 'tommy3531',
   mediumUsername: '@tommarler',
   authorAvatar: '/images/pic.jpg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Writing code started has a hobby over the years in turned into something more.  I really enjoy waking up every morning and learning something new . <br />
+    About 5 years ago I was given a problem and solved it by teching myself access and have been hooked on solving problems ever since.  The part that I like the most is always trying to improve your product.  What I mean by that is
+    just becuase I solve a problem one way I might not use those same tactics the next time because I learned a more efficient way.  Currently I am learning react and decided my first project would be a resume site.<br />
+    I have experience with<strong>Javascript, NodeJS, React, Java, Swift, Mobile Development.</strong>`,
   skills: [
     {
       name: 'Java',
