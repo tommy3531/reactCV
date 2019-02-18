@@ -7,7 +7,7 @@ module.exports = {
   mediumUsername: '@tommarler',
   googleWebMaster: '8Pj-hnz5uJanCeKrbhGXYq2dbgnGpUQ0pJqaN3c_a7E',
   authorAvatar: '/images/pic.jpg',
-  authorDescription: `Writing code started has a hobby over the years in turned into something more.  I really enjoy waking up every morning and learning something new . <br />
+  authorDescription: `Writing code started has a hobby over the years it turned into something more.  I really enjoy waking up every morning and learning something new . <br />
     About 5 years ago I was given a problem and solved it by teching myself access and have been hooked ever since.  I am always trying to improve my product by learning and tickering with new tech.  I am a tenacious <strong>developer</strong> that is not confined to a specific stack or language. <br />
     I am constanly learning new skills and keeping up with the lastest tech trends.  Currently I am learning react and decided my first project would be a resume site built with react.  I decided to use gatsbyjs which is a modern framework that has <strong>react</strong>, <strong>graphql</strong> and many other tools included.  I also like how I can install plugins to help with <strong>SEO</strong>, but most importantly I can focus on writting code.<br />
     I have experience with <bold>Javascript</bold>, <bold>NodeJS</bold>, <bold>React</bold>, <bold>Java</bold>, <bold>Swift</bold>, <bold>Mobile Development</bold>.`,
