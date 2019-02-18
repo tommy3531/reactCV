@@ -52,7 +52,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `google-site-verification`,
-                content: data.site.siteMetadata.google,
+                content: data.site.siteMetadata,
               },
             ]
               .concat(

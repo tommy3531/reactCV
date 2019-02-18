@@ -24,3 +24,15 @@ class Medium extends Component {
 
 export default Medium
 
+const detailsQuery = graphql`
+  query DefaultSEOQuery {
+    site {
+      siteMetadata {
+        title
+        description
+        author
+        google
+      }
+    }
+  }
+`
