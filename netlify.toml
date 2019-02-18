@@ -1,5 +1,0 @@
-// netlify.toml at root of repo
-[[redirects]]
-  from = "https://tommarler.netlify.com/*"
-  to = "https://tommarler.org/:splat"
-  force = true
