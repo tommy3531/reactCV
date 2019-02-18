@@ -2,5 +2,4 @@
 [[redirects]]
   from = "https://tommarler.netlify.com/*"
   to = "https://tommarler.org/:splat"
-  status = 301
   force = true
