@@ -28,7 +28,7 @@ class Home extends React.Component {
       <Layout location={this.props.location}>
         <SEO
           title={title}
-          keywords={['gatsbyjs', 'react', 'curriculum']}
+          keywords={['gatsbyjs', 'react', 'developer', 'frontend', 'web design', 'swift', 'ios', 'mobile', 'software engineer', 'software development', 'job hunting', 'developer needed', 'contract work', 'w-2', 'golang', 'restapi']}
         />
 
         <Hero
