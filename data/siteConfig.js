@@ -7,81 +7,82 @@ module.exports = {
   mediumUsername: '@tommarler',
   authorAvatar: '/images/pic.jpg',
   authorDescription: `Writing code started has a hobby over the years in turned into something more.  I really enjoy waking up every morning and learning something new . <br />
-    About 5 years ago I was given a problem and solved it by teching myself access and have been hooked on solving problems ever since.  The part that I like the most is always trying to improve your product.  What I mean by that is
-    just becuase I solve a problem one way I might not use those same tactics the next time because I learned a more efficient way.  Currently I am learning react and decided my first project would be a resume site.<br />
-    I have experience with<strong>Javascript, NodeJS, React, Java, Swift, Mobile Development.</strong>`,
+    About 5 years ago I was given a problem and solved it by teching myself access and have been hooked on solving problems ever since.  The part that I like the most is always trying to improve your product, just becuase I solve a problem one way I might not use those same tactics the next time. <br />  
+    Currently I am learning react and decided my first project would be a resume site built with react.  I decided to use gatsbyjs which is a modern framework that has react, graphql and many other tools included.  I also like how I can install plugins to help with SEO, but most importantly I can focus on writting code.<br />
+    I have experience with Javascript, NodeJS, React, Java, Swift, Mobile Development.</strong>`,
   skills: [
     {
       name: 'Java',
-      level: 50
+      level: 50,
     },
     {
       name: 'Golang',
-      level: 45
+      level: 45,
     },
     {
       name: 'Blockchain',
-      level: 50
+      level: 50,
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 40,
     },
     {
       name: 'React',
-      level: 50
+      level: 50,
     },
     {
       name: 'Git',
-      level: 70
+      level: 70,
     },
     {
       name: 'Swift',
-      level: 50
+      level: 50,
     },
     {
       name: 'Data Mining',
-      level: 70
-    }
+      level: 70,
+    },
   ],
   jobs: [
     {
-      company: "DAV",
+      company: 'DAV',
       begin: {
         month: 'aug',
-        year: '2018'
+        year: '2018',
       },
       duration: null,
-      occupation: "Hospital Coordinator",
-      description: "Help Disabled Veterans get to their medical appointments"
-  
-    }, {
-      company: "Quarkworks",
+      occupation: 'Hospital Coordinator',
+      description: 'Help Disabled Veterans get to their medical appointments',
+    },
+    {
+      company: 'Quarkworks',
       begin: {
         month: 'nov',
-        year: '2017'
+        year: '2017',
       },
       duration: '10 months',
-      occupation: "iOS developer",
-      description: "Hello Network - fixed bugs and added new features"
-    }, {
-      company: "University of Missouri",
+      occupation: 'iOS developer',
+      description: 'Hello Network - fixed bugs and added new features',
+    },
+    {
+      company: 'University of Missouri',
       begin: {
         month: 'feb',
-        year: '2016'
+        year: '2016',
       },
       duration: '2 yrs',
-      occupation: "Student Researcher",
-      description: "Built testing environments that allowed the tweaking of Next Generation Firewall style tools to support open source contributors, editors, private citizens and developers when building anti-censorship projects"
-  
+      occupation: 'Student Researcher',
+      description:
+        'Built testing environments that allowed the tweaking of Next Generation Firewall style tools to support open source contributors, editors, private citizens and developers when building anti-censorship projects',
     },
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/tommarler3",
-    linkedin: "https://www.linkedin.com/in/tom-m-bb4857112/",
-    github: "https://github.com/tommy3531",
-    email: "thomas.marler@hotmail.com"
+    twitter: 'https://twitter.com/tommarler3',
+    linkedin: 'https://www.linkedin.com/in/tom-m-bb4857112/',
+    github: 'https://github.com/tommy3531',
+    email: 'thomas.marler@hotmail.com',
   },
   siteUrl: 'https://serene-einstein-535354.netlify.com/',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -95,6 +96,6 @@ module.exports = {
     {
       label: 'Tom Marler',
       siteUrl: 'https://tommarler.org',
-    }
-  ]
+    },
+  ],
 }
