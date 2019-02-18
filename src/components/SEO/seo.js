@@ -50,6 +50,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `twitter:description`,
                 content: metaDescription,
               },
+              {
+                name: `googlewebmaster`,
+                content: data.site.siteMetadata.google,
+              },
             ]
               .concat(
                 keywords.length > 0
