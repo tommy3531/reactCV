@@ -56,7 +56,7 @@ module.exports = {
         month: 'aug',
         year: '2018',
       },
-      duration: Present,
+      duration: '6 months',
       occupation: 'Hospital Coordinator',
       description: 'Help Disabled Veterans get to their medical appointments',
     },
