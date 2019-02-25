@@ -33,13 +33,6 @@ module.exports = {
       },
     },
 
-    {
-      resolve: `gatsby-source-ghost`,
-      options: {
-        apiUrl: `https://tommarler.herokuapp.com`,
-        contentApiKey: `6e3308ac6916b40d2fd0207e4e`,
-      },
-    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,

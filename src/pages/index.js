@@ -15,7 +15,6 @@ import Skills from '../components/skills'
 import Timeline from '../components/timeline'
 import Repositories from '../components/repositories'
 import Medium from '../components/medium'
-import Certs from '../components/certs'
 
 const Separator = styled.hr`
   margin-top: 24px;
@@ -75,7 +74,6 @@ class Home extends React.Component {
             <Separator />
             <Repositories />
             <Medium />
-            <Certs />
           </Container>
         </Wrapper>
       </Layout>
