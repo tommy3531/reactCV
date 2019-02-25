@@ -44,6 +44,10 @@ module.exports = {
       name: 'Data Mining',
       level: 70,
     },
+    {
+      name: 'SEO',
+      level: 70,
+    },
   ],
   jobs: [
     {
@@ -52,7 +56,7 @@ module.exports = {
         month: 'aug',
         year: '2018',
       },
-      duration: null,
+      duration: Present,
       occupation: 'Hospital Coordinator',
       description: 'Help Disabled Veterans get to their medical appointments',
     },
@@ -77,7 +81,6 @@ module.exports = {
       description:
         'Built testing environments that allowed the tweaking of Next Generation Firewall style tools to support open source contributors, editors, private citizens and developers when building anti-censorship projects',
     },
-    /* ... */
   ],
   social: {
     twitter: 'https://twitter.com/tommarler3',
@@ -85,7 +88,7 @@ module.exports = {
     github: 'https://github.com/tommy3531',
     email: 'thomas.marler@hotmail.com',
   },
-  siteUrl: 'https://serene-einstein-535354.netlify.com/',
+  siteUrl: 'https://tommarler.org',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-134143239-1',
